@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style-index.css">
+    <title>Jogo da velha!</title>
+</head>
+<body>
+    <!-- The cards will be displayed in gameBaord -->
+    <div id="gameboard"></div> 
+    <div id="gameover">
+        <h1 class="message-gameOver">Parabéns!! Você completou o jogo!</h1>
+        <div class='moves'></div>
+        <div class="content-container">
+            <div class="input-container">
+                <h4 class="save-name">Nome:</h4>
+                <input type="text" class="input" placeholder="nome" name="name" id='inputName'>
+                <button class="btn" onclick="saveScore()">Salvar</button>
+            </div>
+            <div class="buttons-container">
+                <a class="btn btn-2" onclick="restart()">Jogar novamente</a>
+                <a href='./hank.html' class="btn btn-2"> Hank </a>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/scripts/game.js"></script>
+    <script src="./assets/scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Righteous', cursive;
+    color: white;
+}
+
+body{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.title{
+    color: red;
+}
+.hank-list{
+    list-style: none;
+    border: 1px solid white;
+    width: 60vw;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.hank-list li{
+    padding: 5px;
+    width: 100%;    
+}
+
+.hank-list span{
+    color: yellow;
+}
